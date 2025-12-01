@@ -34,6 +34,7 @@ This repository contains the scripts used to generate the results presented in t
   - Each Excel file should contain three sheets: `EpisodeReward`, `EpisodeSNR`, and `EpisodeRate`, as produced by the corresponding training/baseline scripts.
   - Update the file paths in `plotting.py` if your Excel files are stored in a different directory, then run `plotting.py` to generate the plots.
 
-## Note
+## Notes
 
-The `*_multiple_runs.py` files are identical to their corresponding `*_one_run.py` files, except they include a for loop to execute multiple runs for statistical analysis.
+- **Multiple-run scripts**: The `*_multiple_runs.py` files are identical to their corresponding `*_one_run.py` files, except they include a for loop to execute multiple runs for statistical analysis.
+- **Alternative way to reproduce results**: Instead of running the individual scripts, you can simply open and run the notebook `PA_ISAC.ipynb`, which contains the full pipeline needed to regenerate the results.
